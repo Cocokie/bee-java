@@ -54,6 +54,7 @@ public class PluginManager {
 //			logUtil.sysInfoLog("plugin.getJarFilepath() is   " + plugin.getJarFilePath());
 
 			URL[] urls = new URL[] { new File(plugin.getJarFilePath()).toURI().toURL() };
+
 			PluginClassLoader pluginClassLoader = new PluginClassLoader(urls, parent);
 
 //			logUtil.sysInfoLog("begin load classpath");

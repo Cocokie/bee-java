@@ -151,13 +151,13 @@ public class BeeProcedure implements RemoteProcedure{
 	}
 
 	public static void main(String[] args) throws Exception {
-		LogUtils logUtil = new LogUtils("tmp/system");
+		/*LogUtils logUtil = new LogUtils("tmp/system");
 		BeeProcedure bee = new BeeProcedure("0.0.0.0", 5003,"59164647a43c2", logUtil,"tmp/data","tmp/logs");
 
 //		IPCServer wrapperServer = new IPCServer("0.0.0.0", 46667, bee, logUtil);
 		String str = "{\"taskParam\": \"{\\\"identity_id\\\":\\\"c155a882-7718-4006-997a-37858a9c2198\\\",\\\"kafkaLog\\\":\\\"1\\\",\\\"req_type\\\":\\\"2\\\",\\\"sendMsgBack\\\":\\\"1\\\",\\\"plugin_param\\\":\\\"{\\\\\\\"account_name\\\\\\\":\\\\\\\"guoxin\\\\\\\",\\\\\\\"account_type\\\\\\\":\\\\\\\"khsb\\\\\\\",\\\\\\\"company_name\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"location_flag\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"plugins_number\\\\\\\":0,\\\\\\\"plugins_set\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"request_type\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"sys_type\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"uuid\\\\\\\":\\\\\\\"\\\\\\\"}\\\",\\\"outType\\\":[{\\\"mode\\\":\\\"default\\\",\\\"config\\\":{}}],\\\"target\\\":\\\"合肥轩安建筑工程有限公司\\\"}\", \"taskId\": \"20181207193632564157\"}";
 //		str = str.replace("\\","");
-		bee.process(str.getBytes());
+		bee.process(str.getBytes());*/
 
 	}
 

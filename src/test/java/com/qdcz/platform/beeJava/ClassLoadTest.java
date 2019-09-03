@@ -21,6 +21,7 @@ public class ClassLoadTest {
     private static LogUtils logUtil;
 
     public static void main(String[] args) {
+
         //创建一个父类加载器
         URLClassLoader parent = new URLClassLoader(new URL[0], Thread.currentThread().getContextClassLoader());
         //插件管理器去加载插件到内存

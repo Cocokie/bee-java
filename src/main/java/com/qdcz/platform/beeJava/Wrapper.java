@@ -38,8 +38,8 @@ public class Wrapper {
 		//创建一个父类加载器
 		URLClassLoader parent = new URLClassLoader(new URL[0], Thread.currentThread().getContextClassLoader());
 		//插件管理器去加载插件到内存
-		Plugin plugin = new Plugin(pluginInfo);
 		logUtil.sysInfoLog("加载插件对象");
+		Plugin plugin = new Plugin(pluginInfo);
 		new PluginManager(plugin, parent, logUtil);
 		//开启一个客户端定时向honeycomb发送心跳
 		logUtil.sysInfoLog("开启一个客户端定时向honeycomb发送心跳");

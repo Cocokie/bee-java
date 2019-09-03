@@ -5,6 +5,7 @@ import java.io.IOException;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.qdcz.platform.beeJava.utils.LogUtils;
+import com.qdcz.spider.utils.Function;
 
 public class WrapperStartMain {
 	private static LogUtils logUtil;
@@ -16,10 +17,11 @@ public class WrapperStartMain {
 	 *  '/home/qidian/webee-webee1.1/conf/../logs/bees/log',
 	 *  '/home/qidian/webee-webee1.1/conf/../logs/bees/data',
 	 *  '/data/ftp/queen/99c1d2f4/20190129104303.jar',
-	 *  '{"instanceClass":"com.qdcz.plugin.BusinessSQCollPlugin"}']
+	 *  '{"instanceClass":"com.qdcz.plugin.BusinessSQCollPlugin"}']1
 	 * @param args
 	 */
 	public static void main(String[] args) {
+
 		try {
 			if (args == null || args.length == 0) {
 				throw new RuntimeException("请输入参数");
